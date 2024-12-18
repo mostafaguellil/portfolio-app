@@ -37,7 +37,7 @@ const Hero = () => {
           <img
             src={Avatar}
             alt="Profile Picture"
-            className="rounded-full max-w-xs md:max-w-md lg:max-w-sm shadow-lg"
+            className="bg-white bg-opacity-40 rounded-full max-w-xs md:max-w-md lg:max-w-sm shadow-lg"
           />
         </div>
       </div>

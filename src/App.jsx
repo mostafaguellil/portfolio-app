@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-gray-200 text-black'>
+    <div className='bg-gradient-to-r from-zinc-300 to-zinc-400 text-black'>
       <Navbar />
       <Hero />
       <Qualifications />
