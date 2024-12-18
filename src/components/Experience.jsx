@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 const workExperienceData = [
   {
     company: "Macinwork",
@@ -34,7 +35,6 @@ const workExperienceData = [
   },
 ];
 
-
 const Experience = () => {
   return (
     <section className="py-10">
@@ -45,19 +45,21 @@ const Experience = () => {
         {/* Timeline Container */}
         <div className="relative">
           {/* Vertical Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-black"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-black hidden md:block"></div>
 
           {/* Experience Items */}
           {workExperienceData.map((job, index) => (
             <div
               key={index}
-              className={`relative mb-8 flex flex-col items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}
+              className={`relative mb-12 flex flex-col items-center md:items-start ${
+                index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'
+              }`}
             >
               {/* Timeline Dot */}
-              <div className="z-10 w-8 h-8 bg-[bg-[#0f172a]] rounded-full border-4 border-black"></div>
+              <div className="z-10 w-8 h-8 bg-[#0f172a] rounded-full border-4 border-black"></div>
 
               {/* Card */}
-              <div className="bg-white bg-opacity-40 p-6 rounded-lg shadow-md w-full md:w-5/12 mx-4">
+              <div className="bg-white bg-opacity-40 p-6 rounded-lg shadow-md w-full md:w-5/12 mx-4 mt-6 md:mt-0">
                 {/* Company Name */}
                 <h3 className="text-2xl font-semibold text-black mb-2">{job.company}</h3>
                 <p className="text-gray-700 mb-4">{job.location}</p>
@@ -76,7 +78,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
