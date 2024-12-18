@@ -40,7 +40,7 @@ const Experience = () => {
     <section className="py-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
-        <h2 className="text-3xl font-extrabold text-center mb-20">Work Experience</h2>
+        <h2 className="text-3xl font-bold text-center mb-20">Work Experience</h2>
 
         {/* Timeline Container */}
         <div className="relative">
