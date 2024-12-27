@@ -24,7 +24,7 @@ const Navbar = () => {
               <a href="#experience" className="cursor-pointer text-sm">Experience</a>
             </li>
             <a
-              href="https://www.linkedin.com/in/mostafaguellil/"
+              href="#contact"
               target="_blank"
               rel="noopener noreferrer"
             >
