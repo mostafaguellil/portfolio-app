@@ -15,13 +15,22 @@ function App() {
   return (
     <div className='bg-gradient-to-r from-zinc-300 to-zinc-400 text-black'>
       <Navbar />
-      <Hero />
-      <Qualifications />
-      <Experience />
-      <Projects />
-      <Contact />
+      <section id="about">
+        <Hero />
+      </section>
+      <section id="qualifications">
+        <Qualifications />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
       <Footer />
-
     </div>
   )
 }
