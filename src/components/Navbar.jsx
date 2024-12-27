@@ -29,7 +29,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <button className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-slate-700 bg-[#0f172a]">
-                LinkedIn
+                Contact
               </button>
             </a>
           </ul>
