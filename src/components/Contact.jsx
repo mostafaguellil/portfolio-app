@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="flex items-center justify-center min-h-screen">
+    <section id='#contact' className="flex items-center justify-center min-h-screen">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-5 text-3 xl tracking-tight font-bold text-center">Contact Me</h2>
         <p className="mb-8 lg:mb-16 font-medium text-center sm:text-xl">
